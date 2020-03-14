@@ -1,6 +1,6 @@
 class Cat
   @@all = []
-  attr_accessor :mood
+  attr_accessor :mood, :mood
   attr_reader :name
 
   def initialize(name)
